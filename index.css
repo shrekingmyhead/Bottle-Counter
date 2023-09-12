@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(27, 56, 67);
+    background-image: url("bottles.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid ;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    color: aliceblue;
+    border: 3px solid pink;
+}
+
+#add-btn {
+    background-color: purple;
+}
+
+#save-btn {
+    background-color: rebeccapurple;
+}
+
+#save-el {
+    font-weight: bold;
+    font-size: xx-large;
+}
